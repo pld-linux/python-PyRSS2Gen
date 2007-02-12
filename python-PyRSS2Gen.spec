@@ -1,7 +1,7 @@
 %define		module	PyRSS2Gen
 
 Summary:	A Python library for generating RSS 2.0 feeds
-Summary(pl):	Biblioteka pythonowa do generowania kana≥Ûw RSS 2.0
+Summary(pl.UTF-8):   Biblioteka pythonowa do generowania kana≈Ç√≥w RSS 2.0
 Name:		python-%{module}
 Version:	1.0.0
 Release:	1
@@ -18,8 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Python library for generating RSS 2.0 feeds.
 
-%description -l pl
-Biblioteka pythonowa s≥uø±ca do generowania kana≥Ûw RSS 2.0.
+%description -l pl.UTF-8
+Biblioteka pythonowa s≈Çu≈ºƒÖca do generowania kana≈Ç√≥w RSS 2.0.
 
 %prep
 %setup -q -n %{module}-%{version}
