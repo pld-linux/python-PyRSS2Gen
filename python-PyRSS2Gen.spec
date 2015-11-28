@@ -25,13 +25,11 @@ Biblioteka pythonowa służąca do generowania kanałów RSS 2.0.
 %setup -q -n %{module}-%{version}
 
 %build
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
-	--optimize=2
+%py_install
 
 rm -f $RPM_BUILD_ROOT%{py_sitescriptdir}/%{module}.py
 
