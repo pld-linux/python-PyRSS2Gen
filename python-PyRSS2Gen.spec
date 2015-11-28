@@ -4,7 +4,7 @@ Summary:	A Python library for generating RSS 2.0 feeds
 Summary(pl.UTF-8):	Biblioteka pythonowa do generowania kanałów RSS 2.0
 Name:		python-%{module}
 Version:	1.0.0
-Release:	3
+Release:	4
 License:	BSD
 Group:		Libraries/Python
 Source0:	http://www.dalkescientific.com/Python/%{module}-%{version}.tar.gz
