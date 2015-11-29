@@ -10,6 +10,7 @@ Group:		Libraries/Python
 Source0:	http://www.dalkescientific.com/Python/%{module}-%{version}.tar.gz
 # Source0-md5:	b37ed0c9cfa4438a73dbbb0207f3aff6
 URL:		http://www.dalkescientific.com/Python/PyRSS2Gen.html
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 2.3
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
